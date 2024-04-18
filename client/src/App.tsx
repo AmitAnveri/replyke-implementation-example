@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import { CommentSection, User } from "replyke";
 
@@ -20,7 +19,7 @@ function App() {
 
   return (
     <>
-      <h1>Amit</h1>
+      <h1>Replyk Comments Implementation Example</h1>
       <CommentSection
         apiBaseUrl="http://localhost:3000"
         articleId="Content"
